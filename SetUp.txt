@@ -1,0 +1,14 @@
+== To set up a PC to execute the tests ==
+1. Install each of the web browsers you want to test
+2. Download the drivers for each of the browsers - Add them to the path
+ a. Firefox - https://github.com/mozilla/geckodriver/releases
+ b. Chrome - https://sites.google.com/a/chromium.org/chromedriver/
+ c. InternetExplorer - 
+3. Configure the IE browser to run tests. https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+4. Install the test agent for Visual Studio. https://www.microsoft.com/en-us/download/details.aspx?id=48152
+ - how to use MSTest - https://msdn.microsoft.com/en-us/library/ms182490.aspx
+5. Convert the .trx result file to HTML from the command line. http://trx2html.codeplex.com/releases/view/100924
+6. Enable Powershell remoting - in PS as Admin run Enable-PSRemoting -Force
+
+References
+Blog post on setting up the build - https://blogs.msdn.microsoft.com/mvpawardprogram/2017/02/14/cross-browser-automate-test/
